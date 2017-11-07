@@ -1,7 +1,7 @@
 import re
 from nltk import tokenize
 
-f = open('tainb.txt', 'r')
+f = open('hod.txt', 'r')
 
 text = f.read()
 
