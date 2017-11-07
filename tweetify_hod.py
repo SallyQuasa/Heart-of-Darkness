@@ -9,13 +9,13 @@ f.close()
 
 text_wo_lb = re.sub('(?!.)\n(?=.)', ' ', text)
 
-#f = open('tain_out.txt','w')
+#f = open('hod_out.txt','w')
 
 #f.write(text_wo_lb)
 
 #f.close()
 
-f = open('tain_out.txt', 'r')
+f = open('hod_out.txt', 'r')
 
 text_arr = f.readlines()
 
